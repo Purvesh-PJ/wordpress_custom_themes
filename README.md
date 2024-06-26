@@ -31,8 +31,8 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 # Contact Information
 For any questions or feedback, please reach out:
 
-- Email: purvesh9997@gmail.com
-- GitHub: [Purvesh-PJ](https://github.com/Purvesh-PJ)
+- email purvesh9997@gmail.com
+- gitHub [Purvesh-PJ](https://github.com/Purvesh-PJ)
 
 # Acknowledgments
 Special thanks to the contributors and the GPT community for their support and inspiration in developing these custom WordPress themes.
