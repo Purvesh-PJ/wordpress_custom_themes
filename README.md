@@ -1,4 +1,4 @@
-# WordPress Custom Theme Using GPT
+# Wordpress Custom Theme With Chat-GPT
 This repository contains custom WordPress themes developed using `chat-GPT` (Generative Pre-trained Transformer) technology.The theme are designed to provide unique and dynamic styling the power of AI to create engaging and visually appealing websites.
 
 # Installation
