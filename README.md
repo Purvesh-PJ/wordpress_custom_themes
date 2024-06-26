@@ -26,7 +26,7 @@ Fork the repository.
 - Create a new Pull Request.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Purvesh-PJ/wordpress_theme_by_gpt/blob/main/LICENSE.txt) file for details.
 
 # Contact Information
 For any questions or feedback, please reach out:
