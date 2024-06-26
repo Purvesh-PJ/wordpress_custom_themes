@@ -28,5 +28,11 @@ Fork the repository.
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+# Contact Information
+For any questions or feedback, please reach out:
+
+Email: purvesh9997@gmail.com
+GitHub: Purvesh-PJ
+
 # Acknowledgments
 Special thanks to the contributors and the GPT community for their support and inspiration in developing these custom WordPress themes.
