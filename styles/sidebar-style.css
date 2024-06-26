@@ -1,0 +1,91 @@
+.sidebar-container {
+    width: 320px;
+    margin-left: auto;
+}
+
+/* Hide the checkboxes */
+.toggle {
+    display: none;
+}
+
+/* Style the labels */
+label {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hide sub-menus by default */
+.sub-menu {
+    display: none;
+    padding-left: 5px;
+}
+
+.sub-menu-items {
+    list-style-type: none;
+    padding: 10px 10px 10px 0px;
+}
+
+/* Show sub-menus when checkbox is checked */
+.toggle:checked + .sub-menu {
+    display: block;
+}
+
+/* Dropdown icon */
+.dropdown-icon {
+    margin-left: 5px;
+}
+
+.toggle:checked + .sub-menu {
+    display: block;
+}
+
+.menu-items {
+    list-style-type: none;
+    /* border: 1px solid lightgray; */
+    border-radius: 4px;
+    padding: 8px;
+    font-size: small;
+    margin: 4px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.list-items {
+    list-style-type: none;
+    /* border: 1px solid lightgray; */
+    border-radius: 4px;
+    padding: 8px;
+    margin: 2px;
+    /* background-color: rgba(211, 211, 211, 0.151); */
+}
+
+.list-items:hover {
+    text-decoration: underline;
+}
+
+.link {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.rotate-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+@media only screen and (max-width: 1110px){
+    .sidebar-container {
+        padding: 5px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .sidebar-container {
+        padding: 5px;
+    }
+}

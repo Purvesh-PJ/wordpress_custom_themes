@@ -1,0 +1,6 @@
+.recent-posts {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: white;
+    width: 65%; /* Set a maximum width */ 
+}

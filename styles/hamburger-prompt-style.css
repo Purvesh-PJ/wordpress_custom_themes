@@ -1,0 +1,54 @@
+/* Add this to your existing styles */
+
+.ham-prompt-container {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.navigation-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-links ul li {
+    margin-bottom: 5px;
+    /* border: 1px solid rgb(230, 230, 230); */
+    padding: 8px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-links ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+    font-size: small;
+}
+
+.ham-close-buttom-container {
+    /* border: 1px solid gray; */
+    padding: 4px;
+}
+
+.ham-close-buttom-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.clear-icon {
+    
+}
+
+/* Temporary style for testing */
+.current-menu-item a {
+    color: rgb(0, 153, 255) !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #HamburgerPrompt {
+        display: none !important;
+    }
+}

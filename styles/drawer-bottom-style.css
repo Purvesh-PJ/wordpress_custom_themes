@@ -1,0 +1,65 @@
+#drw-cnt-btm {
+    position: fixed;
+    bottom: -300px; /* Initially hide the drawer */
+    left: 0;
+    width: -webkit-fill-available;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: bottom 0.3s ease-in-out; /* Add smooth transition for animation */
+    z-index: 1000;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#drw-cnt-btm.open {
+    bottom: 0; /* Slide up the drawer when open */
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.drawer-content {
+    padding: 10px;
+}
+
+.navigation-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-links ul li {
+    margin-bottom: 10px;
+}
+
+.navigation-links ul li a {
+    text-decoration: none;
+    color: slategrey;
+}
+
+.navigation-links ul li a:hover {
+    color: darkslategray;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #drw-cnt-btm  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #drw-cnt-btm  {
+        display: block;
+    }
+}

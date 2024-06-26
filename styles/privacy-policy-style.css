@@ -1,0 +1,29 @@
+
+/*
+    Theme Name: Custom Theme
+    Author: purvesh_pj
+    Description: A custom edoit WordPress theme.
+*/
+
+.content-area {
+    /*border: 1px solid gray; */
+    width: 850px;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: #f6f7f74a;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-area {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-area {
+        width: 100%;
+    }
+}

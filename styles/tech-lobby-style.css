@@ -1,0 +1,19 @@
+.tech-lobby-section {
+    /* border: 1px solid lightgray; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 1150px;
+}
+
+.tech-lobby-section h2 {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .tech-lobby-section {
+        padding: 10px;
+    }
+    
+}

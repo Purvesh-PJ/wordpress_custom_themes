@@ -1,0 +1,109 @@
+/*
+    Theme Name: Custom Theme
+    Author: purvesh_pj
+    Description: A custom edoit WordPress theme.
+*/
+
+* {
+    box-sizing : border-box;
+}
+
+
+body {
+    display : flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    gap : 20px;
+    background-color: white;
+    margin : 0;
+    /* flex-grow: 1;*/
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family : 'Roboto', sans-serif;
+    font-weight : lighter;
+}
+
+.archive-section {
+    width: 100%;
+}
+
+.cnt {
+    /* border : 1px solid gray; */
+    width : 80%;
+    margin-left : auto;
+    margin-right : auto;
+    display : flex;
+    flex-direction : column;
+    gap : 3rem;
+    min-height : 100vh;
+    box-sizing : border-box;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.highlighted {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.share-icon-container {
+    cursor: pointer;
+    background-color: #002b58;
+    border-radius: 50%;
+    /* width: 35px; */
+    /* height: 35px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.share-icon {
+    font-size: 16px;
+    transition: color 0.3s ease;
+    line-height: 0.5;
+    color: white;
+}
+
+.share-icon-container:hover {
+    background-color: #e7e7e7; 
+}
+
+.share-icon-container:hover .share-icon {
+    color: rgb(0, 34, 63); 
+}
+
+.home-icon {
+    background-color: aqua;
+    fill: currentColor;
+    color: beige;
+}
+
+input:-internal-autofill-selected {
+    appearance: initial;
+    background-image: initial;
+    background-color: initial;
+    color: initial;
+}
+
+.svgfont-Home_Filled:hover {
+    color: aqua;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .home-container {   
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .archive-section {
+        width: 100%;
+    }
+}

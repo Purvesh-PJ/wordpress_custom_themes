@@ -1,0 +1,43 @@
+/* Add styles for the technology categories section */
+.technology-categories-section {
+    background-color: #f4f4f4; /* Optional background color */
+    padding: 10px; /* Optional padding */
+    border-radius: 5px;
+}
+
+/* Style the menu container */
+.technology-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tech-category-title {
+    margin : 0 0 5px 0;
+    font-size : large;
+    font-weight: 500;
+}
+
+/* Style the individual menu items */
+.technology-menu li {
+    display: inline-block;
+    margin-right: 5px; /* Adjust the margin as needed */
+    border: 1px solid rgb(161, 161, 161);
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Style the links */
+.technology-menu a {
+    text-decoration: none;
+    color: #333; /* Set the desired text color */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+}
+
+/* Add hover effect */
+.technology-menu a:hover {
+    text-decoration: underline;
+}
