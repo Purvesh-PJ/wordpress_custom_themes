@@ -25,5 +25,8 @@ Fork the repository.
 - Push to the branch `git push origin feature/YourFeature`
 - Create a new Pull Request.
 
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 # Acknowledgments
 Special thanks to the contributors and the GPT community for their support and inspiration in developing these custom WordPress themes.
